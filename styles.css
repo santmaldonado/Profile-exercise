@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #F9F9FB;
 }
 /* Link Styles */
 
@@ -57,24 +57,25 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/background.jpg') no-repeat top center ;
+  background: url('images/background.png') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
 header {
-  line-height: 1.5;
+  line-height: 1;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
+  border-radius: 20%;
+  border: 1px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(2.1) rotate(10deg);
 }
 .tag {
   background-color: #efefef;
@@ -87,6 +88,14 @@ header .profile-image:hover {
 .location {
   background-color: #222;
   color: yellow;
+}
+.experience {
+  padding: 20px;
+  border-radius: 10px;
+  display: table;
+  background-color: #F9F9FB;
+  margin: 150px auto;
+  color: #222;
 }
 .card {
   margin: 30px;
